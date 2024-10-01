@@ -1,56 +1,61 @@
-# Nome do Projeto
+# Restaurante Website
 
-Uma breve descrição do que é o projeto e do que ele faz.
+## Funcionalidades
 
-## Índice
+### Navegação:
+- Um **menu de navegação** permite que os usuários acessem diferentes seções da página, como:
+  - "Sobre o restaurante"
+  - "Eventos"
+  - "Nosso cardápio"
+  - "Fale conosco"
+- O menu é adaptável para dispositivos móveis, utilizando um botão de colapso (**navbar-toggler**).
 
-- [Características](#características)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+### Carrossel:
+- Uma seção de **carrossel** exibe imagens do restaurante e de pratos, oferecendo aos usuários uma visão visual atraente do local e da comida.
+- Inclui indicadores e **controles de navegação** (próximo/anterior) para facilitar a visualização das imagens.
 
-## Características
+### Seções Informativas:
+- Descrições detalhadas sobre o restaurante, o ambiente e as experiências oferecidas.
+- Uma seção com informações sobre os **eventos** que o restaurante pode acomodar, como aniversários, casamentos e confraternizações.
 
-- Feature 1: Descrição da feature 1
-- Feature 2: Descrição da feature 2
-- Feature 3: Descrição da feature 3
+### Cardápio:
+- Um sistema de **abas** permite ao usuário navegar por diferentes categorias do cardápio, como:
+  - Bebidas (alcoólicas e não alcoólicas)
+  - Entradas
+  - Pratos principais
+  - Sobremesas
+- Cada item do cardápio contém uma imagem, um título e uma breve descrição.
+
+### Formulário de Contato:
+- Uma seção de **formulário de contato** permite que os visitantes enviem suas informações e mensagens diretamente para o restaurante.
+- Informações sobre redes sociais e o endereço do restaurante estão disponíveis para facilitar o contato.
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- BOOTSTRAP
+### HTML5:
+- Estrutura do site construída com **HTML5**, incluindo declaração de documento e definição da língua utilizada.
 
-## Instalação
+### CSS:
+- **Bootstrap** (versão 5.3.3): Framework utilizado para estilização e layout responsivo. Com o Bootstrap, o site se adapta a diferentes tamanhos de tela e inclui componentes prontos para uso, como botões, navbars e carrossel.
+- Um arquivo CSS personalizado (`/css/main.css`) é incluído para customizações adicionais.
 
-Siga os passos abaixo para instalar o projeto em sua máquina local:
+### JavaScript:
+- **Bootstrap JS**: Scripts do Bootstrap são usados para funcionalidades interativas, como o carrossel e comportamento do menu.
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu_usuario/nome_do_repositorio.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd nome_do_repositorio
-    ```
-3. Instale as dependências:
-    ```bash
-    npm install
-    ```
-   ou
-    ```bash
-    pip install -r requirements.txt
-    ```
+### Fontes e Ícones:
+- **Google Fonts**: Utilização da fonte "Pacifico" para um design estético.
+- **Bootstrap Icons**: Ícones usados nas seções de navegação e títulos, melhorando a usabilidade e aparência do site.
 
-## Uso
+### Acessibilidade:
+- Elementos como **aria-controls** e **aria-selected** no menu de abas aumentam a acessibilidade, permitindo que leitores de tela compreendam melhor a estrutura do site.
 
-Forneça um ou mais exemplos de uso. Aqui estão alguns exemplos de comandos:
+### Responsividade:
+- O design é **responsivo**, utilizando classes do Bootstrap (como `col-md-*`) que ajustam o layout em diferentes tamanhos de tela.
 
-```bash
-# Comando 1
-comando_exemplo_1
+## Considerações Finais
+O site do restaurante foi desenvolvido para ser **visualmente atraente** e **funcional**, proporcionando uma excelente experiência ao usuário. As tecnologias utilizadas garantem que o site seja:
+- Responsivo
+- Acessível
+- Fácil de navegar
+Além disso, todas as informações necessárias sobre o restaurante são fornecidas de forma clara e organizada para os visitantes.
 
-# Comando 2
-comando_exemplo_2
